@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+
+    -webkit-font-smoothinh: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --gray-100:#E2E4E9;
+    --gray-200: #C0C4CE;
+    --gray-300: #878EA1;
+    --gray-400: #292C34;
+    --gray-500: #16181D;
+    --gray-600: #0D0E11;
+
+
+    --ff-sans:'Asap', system-ui,sans-serif;
+    --fw-base: 400;
+    --fw-md: 500;
+    --fw-bold: 800;
+
+    --title-md: 1.5rem;
+    --title-sm: 1rem;
+}
+
+
+html {
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-base) ;
+    line-height: 1.6;
+}
+
+h1 {
+    color: var(--gray-100);
+    font-weight: var(--title-md);
+}
+h2 {
+    color: var(--gray-100);
+    font-weight: var(--title-sm);
+}
+
+h3 {
+    color: var(--gray-100);
+    font-weight: var(--title-sm);
+}

@@ -1,0 +1,13 @@
+.btn {
+    border: 0;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+
+    font: var(--fw-base)/1rem var(--ff-sans);
+
+    
+}
