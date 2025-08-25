@@ -24,7 +24,7 @@
 
     --ff-sans:'Asap', system-ui,sans-serif;
     --fw-base: 14px;
-    --fw-md: 500;
+    --fw-md: 2.5rem;
     --fw-bold: 800;
 
     --title-md: 1.5rem;
@@ -34,6 +34,7 @@
     --py-lg: 4.5rem;
     --py-xl: 5.5rem;
     --py-md: 8rem;
+    --py-oi: 5rem;
 }
 
 
@@ -55,11 +56,14 @@ html {
     font-weight: var(--fw-base);
     font-size: var(--fs-base) ;
     line-height: 1.6;
+
+    overflow-x: hidden;
 }
 
 h1 {
+    font-size: 2.5rem;
     color: var(--gray-100);
-    font-weight: var(--title-md);
+
 }
 h2 {
     color: var(--gray-100);
@@ -70,3 +74,27 @@ h3 {
     color: var(--gray-100);
     font-weight: var(--title-sm);
 }
+
+span {
+    font-size: 1rem;
+    color: var(--gray-200);
+}
+
+.destaque {
+    color: #E3646E;
+}
+
+p {
+    font-size: 0.9rem;
+    color: var(--gray-300);
+}
+
+
+.background  {
+    background: url('../assets/Background_Intro.png') no-repeat center center;
+    background-size: 100%; /* cobre toda a tela */
+    background-attachment: 50%d; /* fixa a imagem ao rolar a página */
+    margin: 0;
+    padding: 0; }
+
+
