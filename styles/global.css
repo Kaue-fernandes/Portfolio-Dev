@@ -23,12 +23,30 @@
 
 
     --ff-sans:'Asap', system-ui,sans-serif;
-    --fw-base: 400;
+    --fw-base: 14px;
     --fw-md: 500;
     --fw-bold: 800;
 
     --title-md: 1.5rem;
     --title-sm: 1rem;
+
+    --py-base: 7.5rem;
+    --py-lg: 4.5rem;
+    --py-xl: 5.5rem;
+    --py-md: 8rem;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
 }
 
 
