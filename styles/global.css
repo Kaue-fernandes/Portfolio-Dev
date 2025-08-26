@@ -20,6 +20,7 @@
     --gray-400: #292C34;
     --gray-500: #16181D;
     --gray-600: #0D0E11;
+    --gray-700: #3a3a46;
 
 
     --ff-sans:'Asap', system-ui,sans-serif;
@@ -36,6 +37,12 @@
     --py-md: 8rem;
     --py-oi: 5rem;
 }
+
+.bg { 
+    background: var(--gray-700);
+    
+}
+
 
 
 .flex {
@@ -65,7 +72,9 @@ h1 {
     color: var(--gray-100);
 
 }
+
 h2 {
+    font-size: 1.5rem;
     color: var(--gray-100);
     font-weight: var(--title-sm);
 }
@@ -76,12 +85,17 @@ h3 {
 }
 
 span {
+
     font-size: 1rem;
     color: var(--gray-200);
 }
 
 .destaque {
     color: #E3646E;
+}
+
+.destaque-2 {
+    color: #BB72E9;
 }
 
 p {
@@ -99,4 +113,6 @@ p {
     height: auto;
     padding: 120px;
 }
+
+
 
