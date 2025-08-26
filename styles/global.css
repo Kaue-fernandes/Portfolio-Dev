@@ -21,6 +21,7 @@
     --gray-500: #16181D;
     --gray-600: #0D0E11;
     --gray-700: #3a3a46;
+    --gray-800: #a0a0a079;
 
 
     --ff-sans:'Asap', system-ui,sans-serif;
@@ -40,9 +41,13 @@
 
 .bg { 
     background: var(--gray-700);
-    width: 100%;
+    padding: 100;
 }
 
+.bg2 { 
+    background: var(--gray-600);
+    padding: 100;
+}
 
 
 .flex {

@@ -11,7 +11,9 @@
 .container-2 {
     text-align: center;
     margin-left: 4;
+    
 }
+
 
 
 .py-lg {
@@ -19,3 +21,8 @@
     margin-top: 40px;
 }
 
+.py-xg {
+    margin-left: 550px;
+    margin-top: 40px;
+    gap: 3rem;
+}
