@@ -1,0 +1,11 @@
+.card {
+    background: var(--gray-400);
+    
+    border-radius: 1rem;
+}
+
+
+    /*padding-block: 1rem 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;*/
