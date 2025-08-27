@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Portfolio-Dev" src=".github/preview.jpg.jpg" width="100%">
+  <img alt="Portfolio-Dev" src=".github/PortfolioDev.jpg.png" width="100%">
 </p>
 
 <br>
