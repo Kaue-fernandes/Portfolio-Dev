@@ -6,12 +6,14 @@
         gap: 12rem;
         padding: 1rem;
         margin-top: 2rem;
+        
     }
 
     & .cards img {
     max-width: 10rem; 
     margin-top: 10px;
     margin-left: 0.3rem;
+    margin-right: 200px;
 }
 
     & .card:nth-child(1) {
@@ -25,5 +27,6 @@
     & .card:nth-child(3) {
         grid-column: 3/4;
     }
+
 
 }

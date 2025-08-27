@@ -40,13 +40,15 @@
 }
 
 .bg { 
-    background: var(--gray-700);
-    padding: 100;
+    background: #16181D;
+    padding: 25px;
+    background-size: cover;
 }
 
 .bg2 { 
     background: var(--gray-600);
-    padding: 100;
+    padding: 100px;
+    background-size: cover;
 }
 
 
@@ -95,7 +97,6 @@ h3 {
 }
 
 span {
-    
     font-size: 1rem;
     color: var(--gray-200);
 }
@@ -121,8 +122,14 @@ p {
     background-attachment: 100%; /* fixa a imagem ao rolar a página */
     width: auto;
     height: auto;
-    padding: 120px;
+    padding: 200px;
 }
 
+
+.bkg {
+    background: url(../assets/Background_Contacts.png) no-repeat  center;
+    background-size: cover;
+    padding: 200px;
+}
 
 

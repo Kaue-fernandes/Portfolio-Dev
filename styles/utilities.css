@@ -10,7 +10,7 @@
 
 .container-2 {
     text-align: center;
-    margin-left: 4;
+    
     
 }
 
@@ -22,7 +22,13 @@
 }
 
 .py-xg {
-    margin-left: 550px;
+    margin-left: 385px;
     margin-top: 40px;
     gap: 3rem;
+}
+
+.py-mg {
+    margin-left: 550px;
+    margin-top: 40px;
+
 }

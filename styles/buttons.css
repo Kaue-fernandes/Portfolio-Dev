@@ -23,20 +23,95 @@
     border-radius: 6rem;
     margin-left: 1px;
     margin-top: 80px;
+    
+    
 }
 
 .btn-md {
-    padding: 1.1rem 11rem;
+    
+    width: 400px;
+    padding: 0.5rem 1rem;
     border-radius: .5rem;
+    gap: 7rem;
+    transition: border 0.3s, background 0.3s;
+    border: 2px solid transparent;
+    
+    
 }
 
 a {
+    border: 0;
     text-decoration: none;
+    transition: border 0.3s, background 0.3s;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-radius: .9rem;
 }
 
+
 .btn img {
-    display: block;
     margin-right: 6px;
     width: 20px;
     height: 20px;
+}
+
+.btn:hover {
+    border-color: #3996DB;
+}
+
+.LINKEDIN {
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 1px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/icons/linkedin.svg);
+}
+
+.btn:hover .LINKEDIN {
+    background-image:url(../assets/icons/linkedin-hover.svg);
+}
+
+
+.Instagram {
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 1px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/icons/instrgram.svg);
+}
+
+.btn:hover .Instagram {
+    background-image:url(../assets/icons/instrgram-hover.svg);
+}
+
+.GITHUB {
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/icons/Gato.svg);
+}
+
+.btn:hover .GITHUB {
+    background-image:url(../assets/icons/Gato-hover.svg);
+}
+
+.E-MAIL {
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../assets/icons/E-mail.svg);
+}
+
+.btn:hover .E-MAIL {
+    background-image:url(../assets/icons/E-mail-hover.svg);
 }
