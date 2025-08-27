@@ -42,12 +42,17 @@
 a {
     border: 0;
     text-decoration: none;
-    transition: border 0.3s, background 0.3s;
+    transition: border 0.1s, background 0.1s;
     border: 2px solid transparent;
     cursor: pointer;
-    border-radius: .9rem;
+    border-radius: 1rem;
+
 }
 
+a:hover {
+    border-color: var(--gray-300);
+    border-radius: 1rem;
+}
 
 .btn img {
     margin-right: 6px;
