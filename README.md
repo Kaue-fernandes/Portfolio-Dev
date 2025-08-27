@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Portfolio-Dev" src=".github/PortfolioDev.jpg" width="100%">
+  <img alt="Portfolio-Dev" src=".github/PortfolioDev.jpg.png" width="100%">
 </p>
 
 <br>
@@ -30,7 +30,7 @@ Esse é um dos desafios daformação Full-stack, um dos conteúdos disponiveis p
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK]([[https://www.figma.com/community/file/1187422022288947321](https://www.figma.com/design/ZA2UPbv69O65YnAoPc6ODe/LP-de-produto--Community-?node-id=908-1045&t=mufn0nPjKc7Uj6Vk-0](https://www.figma.com/design/AJy1iHTg2GwDtR4n7lyy53/Portfolio-Dev--Community-?node-id=908-1045&t=UmZH1RzLKqA7b3rn-0))). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](figma.com/design/AJy1iHTg2GwDtR4n7lyy53/Portfolio-Dev--Community-?t=6W3OkUVBbkWa0nUS-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 📝 Licença
 
