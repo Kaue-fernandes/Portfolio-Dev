@@ -52,6 +52,7 @@ a {
 a:hover {
     border-color: var(--gray-300);
     border-radius: 1rem;
+    
 }
 
 .btn img {
@@ -62,6 +63,7 @@ a:hover {
 
 .btn:hover {
     border-color: #3996DB;
+    border-radius: .5rem;
 }
 
 .LINKEDIN {
